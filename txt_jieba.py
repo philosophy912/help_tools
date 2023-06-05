@@ -8,11 +8,16 @@
 # --------------------------------------------------------
 import os.path
 import sys
+
 # from time import sleep
 # import win32api
 # import win32con
-
-import jieba
+try:
+    import jieba
+except ModuleNotFoundError:
+    os.system("pip install jieba")
+finally:
+    import jieba
 # import win32gui
 
 # jieba.enable_paddle()
