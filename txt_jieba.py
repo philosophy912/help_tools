@@ -22,8 +22,10 @@ finally:
 
 # jieba.enable_paddle()
 
-file = "origin.txt"
-output_file = "target.txt"
+# file = "origin.txt"
+file = r"D:\OneDrive\workspace\github\help_tools\zengyut.txt"
+# output_file = "target.txt"
+output_file = r"D:\OneDrive\workspace\github\help_tools\zengyu_output.txt"
 # 分隔符
 spilt_char = " "
 result_contents = []
